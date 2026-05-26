@@ -50,7 +50,7 @@ class HomeScreen extends ConsumerWidget {
               Padding(
                 padding: const EdgeInsets.all(16),
                 child: DropdownButtonFormField<String>(
-                  initialValue: current,
+                  value: current,
                   decoration: const InputDecoration(
                     labelText: 'Translation',
                     border: OutlineInputBorder(),

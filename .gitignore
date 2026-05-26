@@ -6,7 +6,6 @@
 .pub-cache/
 .pub/
 build/
-.flutter-plugins
 .fvm/
 .fvmrc
 
@@ -24,11 +23,9 @@ Thumbs.db
 # Coverage
 coverage/
 
-# Generated
-*.g.dart
+# Generated source files (none in this project yet, but reserved)
 *.freezed.dart
 *.mocks.dart
-pubspec.lock
 
 # iOS
 ios/Pods/
@@ -38,18 +35,20 @@ ios/Flutter/Flutter.podspec
 ios/Flutter/flutter_export_environment.sh
 ios/Flutter/Generated.xcconfig
 ios/Runner/GeneratedPluginRegistrant.*
+ios/Runner.xcworkspace/xcuserdata/
+ios/Runner.xcodeproj/xcuserdata/
 
 # Android
 android/.gradle/
 android/captures/
-android/gradlew
-android/gradlew.bat
 android/local.properties
 android/**/GeneratedPluginRegistrant.java
 android/key.properties
+android/app/release/
 *.jks
+*.keystore
 
-# Web / Desktop (we're not targeting these yet)
+# Web / Desktop (not targeting these yet)
 web/
 windows/
 linux/

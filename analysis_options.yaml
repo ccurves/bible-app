@@ -16,4 +16,3 @@ linter:
     - sort_child_properties_last
     - use_key_in_widget_constructors
     - avoid_print
-    - require_trailing_commas

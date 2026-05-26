@@ -78,7 +78,6 @@ class BibleImporter {
           'book_order': book['order']! as int,
           'testament': book['testament']! as String,
         }, conflictAlgorithm: ConflictAlgorithm.replace);
-
         final chapters = (book['chapters'] as List).cast<Map<String, Object?>>();
         for (final chapter in chapters) {
           final chNum = chapter['number']! as int;

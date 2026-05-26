@@ -36,7 +36,7 @@ class HighlightActions {
         'book_code': v.bookCode,
         'chapter': v.chapter,
         'verse': v.verse,
-        'color': color.toARGB32(),
+        'color': color.value,
         'created_at': DateTime.now().millisecondsSinceEpoch,
       },
       conflictAlgorithm: ConflictAlgorithm.replace,

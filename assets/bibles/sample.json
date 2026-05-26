@@ -1,0 +1,39 @@
+{
+  "id": "SAMPLE",
+  "abbrev": "SMP",
+  "name": "Sample Translation (placeholder)",
+  "language": "en",
+  "license": "Public Domain",
+  "books": [
+    {
+      "code": "GEN",
+      "name": "Genesis",
+      "order": 1,
+      "testament": "OT",
+      "chapters": [
+        {
+          "number": 1,
+          "verses": [
+            { "number": 1, "text": "In the beginning God created the heaven and the earth." },
+            { "number": 2, "text": "And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters." },
+            { "number": 3, "text": "And God said, Let there be light: and there was light." }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "JHN",
+      "name": "John",
+      "order": 43,
+      "testament": "NT",
+      "chapters": [
+        {
+          "number": 3,
+          "verses": [
+            { "number": 16, "text": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life." }
+          ]
+        }
+      ]
+    }
+  ]
+}
